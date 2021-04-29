@@ -76,7 +76,7 @@
       $(document).on('click','.movie', function(){
         var movieName = $(this).data('name');
         $.ajax({
-          url : 'http://www.omdbapi.com/',
+          url : 'https://www.omdbapi.com/',
           metod: 'GET',
           data: {
             t: movieName,
